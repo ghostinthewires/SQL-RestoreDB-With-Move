@@ -12,7 +12,7 @@ Note the logical names of the .mdf & .ldf from the results
 
 This part of the **RestoreDBWithMove.sql** script will restore the database & log to the location of your choice. Here is an example from the script:
 
-** RESTORE DATABASE MYDATABASE
+**RESTORE DATABASE MYDATABASE
 FROM DISK = 'C:\TORESTORE\MYDATABASE.bak'
 WITH MOVE 'MYDATABASE' TO 'E:\DATA\MYDATABASE.mdf',
-MOVE 'MYDATABASE_log' TO 'L:\Logs\MYDATABASE.ldf' **
+MOVE 'MYDATABASE_log' TO 'L:\Logs\MYDATABASE.ldf'**
